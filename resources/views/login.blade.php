@@ -1,4 +1,4 @@
-@extends('layouts.fullwidth')
+@extends('layouts.fullwidth') 
 
 @section('title', 'Connexion')
 
