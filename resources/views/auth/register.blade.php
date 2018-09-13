@@ -14,7 +14,7 @@
 
                             <div class="form-inputs clearfix">
                                 <p class="login-text">
-                                    <input type="text" name="name" value="{{ old('name') }}" placeholder="Username" required autofocus>
+                                    <input type="text" name="name" value="" placeholder="Username" required autofocus>
                                     <i class="icon-user"></i>
                                     @if ($errors->has('name'))
                                         <span class="help-block">
@@ -23,7 +23,7 @@
                                     @endif
                                 </p>
                                 <p class="login-text">
-                                    <input type="email" name="email" value="{{ old('email') }}" placeholder="Email" required autofocus>
+                                    <input type="email" name="email" value="" placeholder="Email" required autofocus>
                                     <i class="icon-envelope"></i>
                                     @if ($errors->has('email'))
                                         <span class="help-block">
